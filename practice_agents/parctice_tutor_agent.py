@@ -1,4 +1,4 @@
-# ### 🔑 The Basic Idea
+# ### The Basic Idea
 # Strands follows a simple **model-driven loop**:
 
 # ```
