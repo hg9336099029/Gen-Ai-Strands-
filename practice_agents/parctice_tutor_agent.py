@@ -1,9 +1,8 @@
-# ### 🔑 The Basic Idea
+# ### The Basic Idea
 # Strands follows a simple **model-driven loop**:
 
-# ```
 # Input → Model Thinks → Tools Used → Response Generated
-import asyncio
+import asyncio 
 from strands import Agent
 from strands.session.file_session_manager import FileSessionManager
 from strands.tools import tool 
@@ -28,7 +27,7 @@ tutor_agent =Agent(
     # system prompt---> it tells the agent about the role and behavior it should follow
     # for example, you can specify that the agent should act as a personal tutor for a specific subject
     system_prompt ="""
-    You are a personal tutor agent foor a student who is learning 
+    You are a personal tutor agent for a student who is learning 
     about the strands framework.Your role to provide clear and concise explanation 
     and answer any questions the student may have about the strands framework. 
     You should also provide examples and resources to help the student understand the concepts better.
